@@ -1,0 +1,35 @@
+git+https://gitee.com/haowen-xu/ml-essentials
+git+https://gitee.com/haowen-xu/tensorkit
+git+https://gitee.com/mirrors/ZhuSuan.git
+click
+jinja2
+networkx
+numpy
+pandas
+PyYAML
+python-snappy
+scikit-learn
+seaborn
+semver
+natsort
+imageio
+fs
+lazy_object_proxy
+kafka-python
+tqdm
+loguru
+tensorboard==1.15
+numba
+
+-f https://download.pytorch.org/whl/cu116/torch_stable.html
+torch==1.12.0+cu116
+
+-f https://data.dgl.ai/wheels/repo.html
+dgl-cu116
+
+-f https://data.pyg.org/whl/torch-1.12.0+cu116.html
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
